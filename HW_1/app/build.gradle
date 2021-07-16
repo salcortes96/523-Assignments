@@ -1,11 +1,9 @@
-//plugins {
-//    id 'com.android.application'
-//    id 'kotlin-android'
-//}
+plugins {
+    id 'kotlin-android-extensions'
+    id 'com.android.application'
+    id 'kotlin-android'
+}
 
-apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 30
