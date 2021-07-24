@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/PicureTopLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AE0"
+    android:keepScreenOn="true"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/previewPane"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:scaleType="center"
+        android:src="@drawable/ic_launcher_foreground"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:src="@tools:sample/avatars"></ImageView>
+
+
+    <Button
+        android:id="@+id/pictureBut2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startCameraIntentForResult2"
+        android:text="Photo 1"
+        android:textAllCaps="true"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <Button
+        android:id="@+id/chosebutton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startChooseImageIntentForResult2"
+        android:text="Edit Photo 1"
+        android:textSize="28sp"
+        android:textStyle="normal"
+        android:layout_marginStart="20dp"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="250dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/pictureBut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginEnd="16dp"
+        android:onClick="startCameraIntentForResult"
+        android:text="Photo 2"
+        android:textAllCaps="true"
+        android:textSize="34sp"
+
+        android:textStyle="bold"
+        android:layout_marginRight="16dp" />
+
+    <Button
+        android:id="@+id/choseBut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginStart="20dp"
+        android:onClick="startChooseImageIntentForResult"
+        android:text="Edit Photo 2"
+        android:textSize="28sp"
+        android:textStyle="normal"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:text="Gallery"
+        android:textSize="42dp"
+        android:textStyle="normal" />
+
+</LinearLayout>
