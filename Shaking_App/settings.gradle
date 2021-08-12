@@ -1,0 +1,2 @@
+rootProject.name = "Shaking_App"
+include ':app'
