@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/ic_baseline_local_car_wash_24"
+            android:title="Services" />
+
+        <item
+            android:id="@+id/nav_maint_plans"
+            android:icon="@drawable/ic_baseline_money_24"
+            android:title="Maintenance Plans" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_slideshow_24"
+            android:title="@string/menu_gallery" />
+
+        <item
+            android:id="@+id/nav_my_story"
+            android:icon="@drawable/ic_baseline_family_restroom_24"
+            android:title="My Story" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_baseline_settings_applications_24"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+
+
+        <item android:title="Profile">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/ic_baseline_login_24"
+                    android:title="Login"/>
+
+
+            </menu>
+
+
+        </item>
+
+        <item android:title="Communicate">
+            <menu>
+                <item
+                    android:id="@+id/nave_share"
+                    android:icon="@drawable/ic_baseline_share_24"
+                    android:title="Share"/>
+                <item
+                    android:id="@+id/nave_rate_us"
+                    android:icon="@drawable/ic_baseline_rate_review_24"
+                    android:title="Rate Us"/>
+
+
+
+
+            </menu>
+
+        </item>
+
+
+    </group>
+
+
+
+</menu>

@@ -15,6 +15,8 @@ import com.example.final_project_1.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
+
+    // create
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
 
