@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".ui.home.HomeFragment">
 
     <TextView
@@ -18,5 +19,69 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_horizontal" />
+
+    <ImageView
+        android:id="@+id/home_image_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/home_logo"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/home_image_2"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/home_image_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_image_1" />
+
+    <ImageView
+        android:id="@+id/home_image_3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/home_image_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_image_2" />
+
+    <ImageView
+        android:id="@+id/home_image_4"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/home_image_3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_image_3" />
+
+    <TextView
+        android:id="@+id/text_home_seattle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bringing the Best Service to Seattle and Surrounding Areas"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:fontFamily="cursive"
+        app:layout_constraintTop_toBottomOf="@+id/home_image_2"
+        tools:layout_editor_absoluteX="-16dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/text_home_call_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call us at: 408-505-1920"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:fontFamily="cursive"
+        app:layout_constraintTop_toBottomOf="@+id/home_image_4"
+        tools:layout_editor_absoluteX="-16dp"
+        android:gravity="center_horizontal" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
