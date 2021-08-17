@@ -9,12 +9,11 @@
     android:background="@color/my_neon_green">
 
 
+    <!-- old stuff
+    tools:context=".ui.gallery.ServicesFragment">
 
-    <!-- tools:context=".ui.gallery.GalleryFragment">  -->
-
-    <!--
     <TextView
-        android:id="@+id/text_gallery"
+        android:id="@+id/text_services"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -26,7 +25,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:gravity="center_horizontal" />      -->
+        android:gravity="center_horizontal" />
+        -->
 
     <ImageView
         android:id="@+id/ser_iamge_1"

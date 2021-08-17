@@ -24,8 +24,9 @@
             android:icon="@drawable/ic_baseline_slideshow_24"
             android:title="@string/menu_gallery" />
 
+        <!--swapped id with nav_slideshow as that is working -->
         <item
-            android:id="@+id/nav_my_story"
+            android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_baseline_family_restroom_24"
             android:title="My Story" />
 
@@ -34,8 +35,9 @@
             android:icon="@drawable/ic_baseline_settings_applications_24"
             android:title="Settings" />
 
+        <!--swapped id with nav_my_story as that is working -->
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_my_story"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
 
