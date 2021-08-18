@@ -6,14 +6,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white">
+    android:background="@color/my_neon_green"
 
-
-    <!-- old stuff
-    tools:context=".ui.gallery.ServicesFragment">
+    tools:context=".ui.gallery.SettingsFragment">
 
     <TextView
-        android:id="@+id/text_services"
+        android:id="@+id/text_settings"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -26,14 +24,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:gravity="center_horizontal" />
-        -->
+
 
     <ImageView
         android:id="@+id/settings_pic_1"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:scaleType="fitXY"
-        android:src="@drawable/purple_car"
+        android:src="@drawable/home_header_car"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -170,62 +168,69 @@
 
     <Button
         android:id="@+id/settings_but_1"
-        android:layout_width="150dp"
+        android:layout_width="110dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="260dp"
         android:layout_marginLeft="260dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/custom_rounded_corners"
         android:text="Contact Us"
+        android:textSize="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/settings_pic_2" />
 
     <Button
         android:id="@+id/settings_but_2"
-        android:layout_width="150dp"
+        android:layout_width="110dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="260dp"
         android:layout_marginLeft="260dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/custom_rounded_corners"
         android:text="Update"
+        android:textSize="10dp"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/settings_pic_3" />
 
     <Button
         android:id="@+id/settings_but_3"
-        android:layout_width="150dp"
+        android:layout_width="110dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="260dp"
         android:layout_marginLeft="260dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/custom_rounded_corners"
         android:text="Reset"
+        android:textSize="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/settings_pic_4" />
 
 
     <Button
         android:id="@+id/settings_but_4"
-        android:layout_width="150dp"
+        android:layout_width="110dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="260dp"
         android:layout_marginLeft="260dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/custom_rounded_corners"
         android:text="Configure"
+        android:textSize="10dp"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/settings_pic_5" />
 
     <Button
         android:id="@+id/settings_but_5"
-        android:layout_width="150dp"
+        android:layout_width="110dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="260dp"
         android:layout_marginLeft="260dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/custom_rounded_corners"
         android:text="Test"
+        android:textSize="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/settings_pic_6" />
 

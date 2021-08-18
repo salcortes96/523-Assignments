@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:layout_marginTop="16dp"
+    android:layout_marginTop="40dp"
     android:layout_marginStart="16dp"
     android:background="@color/white"
     android:layout_marginLeft="16dp">
@@ -12,7 +12,7 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:src="@drawable/profile_pic"/>
+        android:src="@drawable/profile_pic" />
 
     <TextView
         android:layout_width="match_parent"

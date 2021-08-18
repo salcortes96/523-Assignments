@@ -20,6 +20,44 @@
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.ninjaautodetailing.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="My Story"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.ninjaautodetailing.ui.login.LoginFragment"
+        android:label="Account Log In"
+        tools:layout="@layout/fragment_slideshow"/>
+
+    <fragment
+        android:id="@+id/nav_services"
+        android:name="com.example.ninjaautodetailing.ui.services.ServicesFragment"
+        android:label="Services"
+        tools:layout="@layout/fragment_services"/>
+
+    <fragment
+        android:id="@+id/nav_maint_plans"
+        android:name="com.example.ninjaautodetailing.ui.plans.PlansFragment"
+        android:label="Maintenance Plans"
+        tools:layout="@layout/fragment_maint_plans"/>
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.ninjaautodetailing.ui.settings.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings"/>
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.ninjaautodetailing.ui.share.ShareFragment"
+        android:label="Share"
+        tools:layout="@layout/fragment_share"/>
+
+    <fragment
+        android:id="@+id/nav_rate"
+        android:name="com.example.ninjaautodetailing.ui.rate.RateFragment"
+        android:label="Find Us"
+        tools:layout="@layout/fragment_rate_us"/>
+
+
+
 </navigation>

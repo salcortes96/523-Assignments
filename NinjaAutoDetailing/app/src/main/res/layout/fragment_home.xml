@@ -25,8 +25,8 @@
     <ImageView
         android:id="@+id/home_image_1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/home_logo"
+        android:layout_height="90dp"
+        android:src="@drawable/home_header_car"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -39,6 +39,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/home_image_1" />
 
+    <!--
     <ImageView
         android:id="@+id/home_image_3"
         android:layout_width="match_parent"
@@ -47,25 +48,28 @@
         android:src="@drawable/home_image_2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/home_image_2" />
+        -->
 
     <ImageView
         android:id="@+id/home_image_4"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="65dp"
         android:scaleType="fitXY"
         android:src="@drawable/home_image_3"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/home_image_3" />
+        app:layout_constraintTop_toBottomOf="@+id/home_image_2" />
 
     <TextView
         android:id="@+id/text_home_seattle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Bringing the Best Service to Seattle and Surrounding Areas"
-        android:textColor="@color/black"
+        android:text="Bringing the Best Service to Seattle and Surrounding Areas !"
+        android:textColor="@color/white"
         android:textAlignment="center"
         android:textSize="25dp"
         android:fontFamily="cursive"
+        android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@+id/home_image_2"
         tools:layout_editor_absoluteX="-16dp"
         android:gravity="center_horizontal" />
@@ -74,14 +78,15 @@
         android:id="@+id/text_home_call_us"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Call us at: 408-505-1920"
-        android:textColor="@color/white"
-        android:textAlignment="center"
-        android:textSize="30dp"
+        android:layout_marginTop="10dp"
         android:fontFamily="cursive"
-        app:layout_constraintTop_toBottomOf="@+id/home_image_4"
-        tools:layout_editor_absoluteX="-16dp"
-        android:gravity="center_horizontal" />
+        android:gravity="center_horizontal"
+        android:text="Call us at: 408-505-1920"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_image_4" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

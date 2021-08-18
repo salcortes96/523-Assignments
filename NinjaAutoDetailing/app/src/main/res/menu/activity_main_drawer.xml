@@ -35,11 +35,11 @@
             android:icon="@drawable/ic_baseline_settings_applications_24"
             android:title="Settings" />
 
-        <!--swapped id with nav_my_story as that is working -->
+        <!--swapped id with nav_my_story as that is working
         <item
             android:id="@+id/nav_my_story"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:title="@string/menu_slideshow" />  -->
 
 
         <item android:title="Profile">
@@ -59,13 +59,13 @@
         <item android:title="Communicate">
             <menu>
                 <item
-                    android:id="@+id/nave_share"
+                    android:id="@+id/nav_share"
                     android:icon="@drawable/ic_baseline_share_24"
                     android:title="Share"/>
                 <item
-                    android:id="@+id/nave_rate_us"
+                    android:id="@+id/nav_rate"
                     android:icon="@drawable/ic_baseline_rate_review_24"
-                    android:title="Rate Us"/>
+                    android:title="Find Us"/>
 
 
 
